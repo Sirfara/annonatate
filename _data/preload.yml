@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2025-07-11 10:37:02.824447'
+  iiif: false
+  thumbnail: https://viewer.cbl.ie/viewer/api/v1/records/Heb_772/files/images/Heb772_009.jpg/2823,1178,923,1101/max/0/default.jpg
+  title: ''
+  url: https://viewer.cbl.ie/viewer/api/v1/records/Heb_772/files/images/Heb772_009.jpg/2823,1178,923,1101/max/0/default.jpg
+  user: Sirfara
 settings: {}
 version: '2.1'
