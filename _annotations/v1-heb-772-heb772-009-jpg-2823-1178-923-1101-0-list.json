@@ -1,0 +1,9 @@
+---
+canvas_id: "https://viewer.cbl.ie/viewer/api/v1/records/Heb_772/files/images/Heb772_009.jpg/2823,1178,923,1101/max/0/default.jpg"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
