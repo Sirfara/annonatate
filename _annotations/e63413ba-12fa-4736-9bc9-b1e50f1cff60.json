@@ -1,0 +1,45 @@
+---
+canvas: "https://viewer.cbl.ie/viewer/api/v1/records/Heb_772/files/images/Heb772_009.jpg/2823,1178,923,1101/max/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\u05d1\u05e8\u05e9\u05d9\u05ea",
+            "purpose": "assessing",
+            "creator": {
+                "id": "Sirfara",
+                "name": "Sirfara"
+            },
+            "created": "2025-07-11T10:38:10.389Z",
+            "modified": "2025-07-11T10:38:20.706Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Title",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Sirfara",
+                "name": "Sirfara"
+            },
+            "created": "2025-07-11T10:38:28.590Z",
+            "modified": "2025-07-11T10:38:29.199Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://viewer.cbl.ie/viewer/api/v1/records/Heb_772/files/images/Heb772_009.jpg/2823,1178,923,1101/max/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=210.66464233398438,519.0619506835938,567.2223815917969,167.22357177734375"
+        }
+    },
+    "id": "e63413ba-12fa-4736-9bc9-b1e50f1cff60.json",
+    "motivation": "commenting"
+}
